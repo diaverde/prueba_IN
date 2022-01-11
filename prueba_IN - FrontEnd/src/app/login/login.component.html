@@ -1,0 +1,25 @@
+<h3>Inicio de sesión</h3>
+
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+    <div>
+        <label for="user">
+            Nombre de usuario
+        </label>
+        <input id="user" type="text" formControlName="user">
+    </div>
+
+    <div>
+        <label for="password">
+            Contraseña
+        </label>
+        <input id="password" type="text" formControlName="password">
+    </div>
+
+    <button class="button" type="submit">Ingresar</button>
+
+</form>
+
+<div *ngIf="errorMessage">
+    <p>{{errorMessage}}</p>
+</div>
