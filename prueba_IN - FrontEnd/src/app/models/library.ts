@@ -13,3 +13,13 @@ export interface Author {
     firstName: string;
     lastName: string;
 }
+
+export interface BookWAuthor {
+    id: number;
+    title: string;
+    description: string;
+    pageCount: number;
+    excerpt: string;
+    publishDate: string;
+    author: string[];
+}

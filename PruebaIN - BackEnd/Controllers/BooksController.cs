@@ -44,23 +44,5 @@ namespace PruebaIN.Controllers
             }
         }
 
-        [HttpPost]
-        [Route("Synchronize")]
-        public async Task<IActionResult> Post()
-        {
-            HttpClient _client = new HttpClient();
-            Book[] booksToSync = await SyncController.GetBooks(_client);
-            
-            if (DatabaseController.InsertManyBooks(booksToSync))
-            {
-                return Ok("Sincronización realizada");
-            }
-            else
-            {
-                return new BadRequestObjectResult("Error");
-            }
-            
-        }
-
     }
 }

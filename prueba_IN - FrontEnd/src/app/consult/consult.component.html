@@ -1,3 +1,46 @@
 <app-navigate></app-navigate>
 <h2>Consulta de datos</h2>
-<h3>Este es su catálogo</h3>
+
+<div class="text-center">
+    <h3>Este es su catálogo</h3>
+</div>
+
+<div *ngIf="showTable">
+    <div class="row">
+        <div class="col-12 col-md-3">
+            <h4>Filtrar por</h4>
+            <form>
+                <label for="authors">
+                    Autor
+                </label>
+                <select name="authors" id="authors" #t (change)="filterData(t.value)">
+                    <option *ngFor="let author of authorNames" value={{author}}>{{author}}</option>
+                </select>
+            </form>
+        </div>
+        <div class="col-12 col-md-9">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Id</th>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Fecha de publicación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let book of filteredBooksToShow">
+                        <td>{{book.id}}</td>
+                        <td>{{book.title}}</td>
+                        <td>{{book.author.join(', ')}}</td>
+                        <td>{{book.publishDate}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="!showTable" class="text-center">
+    <p>{{catalogInfo}}</p>
+</div>

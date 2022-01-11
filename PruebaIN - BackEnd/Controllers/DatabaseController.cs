@@ -376,5 +376,68 @@ namespace PruebaIN.Controllers
             return false;
         }
 
+        public static bool ReloadDatabase(Author[] authors, Book[] books)
+        {
+            SqlConnectionStringBuilder builder = DatabaseController.getConnectionString();
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
+                {
+                    connection.Open();
+
+                    string[] valuesA = new string[authors.Length];
+                    int cont = 0;
+                    foreach (Author author in authors)
+                    {
+                        string val = $"({author.Id}, {author.IdBook}, '{author.FirstName}', '{author.LastName}')";
+                        valuesA[cont] = val;
+                        cont++;
+                    }
+
+                    string[] valuesB = new string[books.Length];
+                    cont = 0;
+                    foreach (Book book in books)
+                    {
+                        string modifiedDate = book.PublishDate.ToString("yyyy-MM-dd HH:mm:ss.FFF");
+                        //System.Diagnostics.Debug.WriteLine(modifiedDate);
+                        string val = $"({book.Id}, '{book.Title}', '{book.Description}', {book.PageCount}, '{book.Excerpt}', '{modifiedDate}')";
+                        valuesB[cont] = val;
+                        cont++;
+                    }
+
+                    String sql = "DELETE FROM authors;"
+                        + "DELETE FROM books;"
+                        + "SET IDENTITY_INSERT books ON;"
+                        + "INSERT INTO books (id, title, description, pageCount, excerpt, publishDate) "
+                        + $"VALUES {String.Join(", ", valuesB)};"
+                        + "SET IDENTITY_INSERT books OFF;"
+                        + "SET IDENTITY_INSERT authors ON;"
+                        + "INSERT INTO authors (id, idBook, firstName, lastName) "
+                        + $"VALUES {String.Join(", ", valuesA)};"
+                        + "SET IDENTITY_INSERT authors OFF";
+
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        int res = command.ExecuteNonQuery();
+                        if (res >= authors.Length)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+            catch (SqlException e)
+            {
+                System.Diagnostics.Debug.WriteLine(e.ToString());
+            }
+
+            return false;
+        }
+
     }
 }
