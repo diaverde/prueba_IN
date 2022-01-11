@@ -1,5 +1,13 @@
-<h1>Su página</h1>
-<nav>
-    <a routerLink="/sync">Sincronizar</a>
-    <a routerLink="/consult">Consultar</a>
-</nav>
+<div class="appBar">
+    <h1>Su tablero de control</h1>
+    <nav class="navbar navbar-expand">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" [class.selected]="nRouter.url === '/sync'">
+                <a class="nav-link" routerLink="/sync">Sincronizar</a>
+            </li>
+            <li class="nav-item" [class.selected]="nRouter.url === '/consult'">
+                <a class="nav-link" routerLink="/consult">Consultar</a>
+            </li>
+        </ul>
+    </nav>
+</div>

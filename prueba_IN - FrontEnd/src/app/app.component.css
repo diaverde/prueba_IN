@@ -1,0 +1,11 @@
+.jumbotron {
+    padding:30px 20px;
+    margin:0px auto 20px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}

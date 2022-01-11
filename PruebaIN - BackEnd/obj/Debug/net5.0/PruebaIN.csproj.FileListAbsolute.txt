@@ -1,35 +1,70 @@
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\appsettings.json
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\PruebaIN.exe
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\PruebaIN.deps.json
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\PruebaIN.runtimeconfig.json
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\PruebaIN.runtimeconfig.dev.json
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\PruebaIN.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\ref\PruebaIN.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\PruebaIN.pdb
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.csproj.AssemblyReference.cache
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.AssemblyInfoInputs.cache
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.AssemblyInfo.cs
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.csproj.CoreCompileInputs.cache
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\staticwebassets\PruebaIN.StaticWebAssets.Manifest.cache
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\staticwebassets\PruebaIN.StaticWebAssets.xml
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\scopedcss\bundle\PruebaIN.styles.css
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.RazorTargetAssemblyInfo.cache
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.csproj.CopyComplete
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.dll
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\ref\PruebaIN.dll
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.pdb
-C:\Users\Home\source\repos\PruebaIN\obj\Debug\net5.0\PruebaIN.genruntimeconfig.cache
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\System.Data.SqlClient.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Home\source\repos\PruebaIN\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/appsettings.json
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/PruebaIN.exe
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/PruebaIN.deps.json
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/PruebaIN.runtimeconfig.json
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/PruebaIN.runtimeconfig.dev.json
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/PruebaIN.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/ref/PruebaIN.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/PruebaIN.pdb
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.csproj.AssemblyReference.cache
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.AssemblyInfoInputs.cache
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.AssemblyInfo.cs
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.csproj.CoreCompileInputs.cache
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/staticwebassets/PruebaIN.StaticWebAssets.Manifest.cache
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/staticwebassets/PruebaIN.StaticWebAssets.xml
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/scopedcss/bundle/PruebaIN.styles.css
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.RazorTargetAssemblyInfo.cache
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.csproj.CopyComplete
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.dll
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/ref/PruebaIN.dll
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.pdb
+C:/Users/Home/source/repos/PruebaIN/obj/Debug/net5.0/PruebaIN.genruntimeconfig.cache
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/System.Data.SqlClient.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/Home/source/repos/PruebaIN/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/appsettings.Development.json
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/appsettings.json
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/PruebaIN.StaticWebAssets.xml
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/PruebaIN
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/PruebaIN.deps.json
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/PruebaIN.runtimeconfig.json
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/PruebaIN.runtimeconfig.dev.json
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/PruebaIN.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/ref/PruebaIN.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/PruebaIN.pdb
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/System.Data.SqlClient.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.csproj.AssemblyReference.cache
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.GeneratedMSBuildEditorConfig.editorconfig
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.AssemblyInfoInputs.cache
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.AssemblyInfo.cs
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.csproj.CoreCompileInputs.cache
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.MvcApplicationPartsAssemblyInfo.cs
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.MvcApplicationPartsAssemblyInfo.cache
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/scopedcss/bundle/PruebaIN.styles.css
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/staticwebassets/PruebaIN.StaticWebAssets.Manifest.cache
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.RazorTargetAssemblyInfo.cache
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.csproj.CopyComplete
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/ref/PruebaIN.dll
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.pdb
+/home/finisterra/Documentos/Proyectos/prueba_IN/PruebaIN - BackEnd/obj/Debug/net5.0/PruebaIN.genruntimeconfig.cache

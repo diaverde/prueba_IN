@@ -1,0 +1,30 @@
+.appBar {
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+.appBar nav {
+    padding-bottom: 0;
+}
+
+.appBar h1 {
+    padding: 10px;
+}
+
+li:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+    left: .1em;
+}
+li.selected {
+    background-color: whitesmoke;
+    color: white;
+}
+li.selected:hover {
+    background-color: #505050;
+    color: white;
+}
+li.selected:active {
+    background-color: whitesmoke;
+    color: white;
+}

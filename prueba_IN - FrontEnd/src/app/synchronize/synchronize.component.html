@@ -1,5 +1,19 @@
 <app-navigate></app-navigate>
 <h2>Tareas de sincronización</h2>
-<h3>Seleccione la tarea</h3>
-<button>Obtener catálogo de libros y autores</button>
-<button>Actualizar base de datos</button>
+<h3 class="text-center">Seleccione la tarea</h3>
+<div class="row">
+    <div class="col-12 col-sm-6">
+        <button class="btn btn-warning btn-lg" (click)="getCatalog()">Obtener catálogo de libros y autores</button>
+    </div>
+    <div class="col-12 col-sm-6">
+        <button class="btn btn-warning btn-lg" (click)="syncDB()">Actualizar base de datos</button>
+    </div>
+</div>
+
+<div *ngIf="isSync">
+    <p>Res1</p>
+</div>
+
+<div *ngIf="gotFullCatalog">
+    <p>Res1</p>
+</div>
