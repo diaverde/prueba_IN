@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
-import { catchError } from 'rxjs/operators';
+import { catchError, tap } from 'rxjs/operators';
 
-import { User } from './models/user';
+import { User, LoginUserData } from './models/user';
 import { configData } from './config/config_data';
 
 @Injectable({
@@ -11,14 +11,18 @@ import { configData } from './config/config_data';
 })
 export class LoginService {
 
+  token: string | undefined;
+  errorMessage: string | undefined;
+
   constructor(
     private http: HttpClient
   ) { }
 
-  getUsers(): Observable<User[]> {
-    return this.http.get<User[]>(configData.getUsersURL)
+  login(user: User): Observable<LoginUserData> {
+    return this.http.post<LoginUserData>(configData.loginURL, user)
       .pipe(
-        catchError(this.handleError<User[]>('getUsers', []))
+        tap(userData => this.token = userData.jwt),
+        catchError(this.handleError<LoginUserData>('login'))
       );
   }
 
@@ -26,6 +30,7 @@ export class LoginService {
     return (error: any): Observable<T> => {
       console.error(`Operación ${operation} falló`);
       console.error(error);
+      this.errorMessage
       // Retornar resultado esperado para no bloquear aplicación
       return of(result as T);
     };

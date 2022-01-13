@@ -33,8 +33,16 @@ export class LoginComponent implements OnInit {
     let pwd: string = this.loginForm.value['password'];
     let validForm: string = this.validateForm(user, pwd);
     if (validForm === 'Ok') {
-      this.loginService.getUsers().subscribe(users => {
-        if (this.isValidUser(user, pwd, users)) {
+      let userData: User = {
+        id: 0,
+        userName: user,
+        password: pwd
+      }
+      this.loginService.login(userData).subscribe(userLogin => {
+        if (!userLogin) {
+          this.errorMessage = 'Credenciales no válidas';
+        } else if (userLogin.user.userName === userData.userName) {
+          console.log(this.loginService.token);
           this.router.navigate(['/sync']);
         } else {
           this.errorMessage = 'Credenciales no válidas';
@@ -55,14 +63,4 @@ export class LoginComponent implements OnInit {
     }
   }
 
-  private isValidUser(user: string, password: string, users: User[]): boolean {
-    if (users.length > 0) {
-      for (let i = 0; i < users.length; i++) {
-        if (users[i].userName === user && users[i].password === password) {
-          return true;
-        }
-      }
-    }
-    return false;
-  }
 }

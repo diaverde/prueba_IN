@@ -79,5 +79,37 @@ namespace PruebaIN.Controllers
             }
             return new Author[0];
         }
+
+        public static async Task<User[]> GetUsers(HttpClient _client)
+        {
+            const string extraRoute = "Users";
+            var url = syncURL + extraRoute;
+
+            User[] _users;
+
+            try
+            {
+                var streamTask = _client.GetStreamAsync(url);
+                JsonSerializerOptions options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+                _users = await JsonSerializer.DeserializeAsync<User[]>(await streamTask, options);
+
+                if (_users.Length == 0)
+                {
+                    System.Diagnostics.Debug.WriteLine(String.Join("\r\n", new string[] {
+                        "No hay usuarios disponibles",
+                    }));
+                }
+                return _users;
+            }
+            catch (HttpRequestException e)
+            {
+                System.Diagnostics.Debug.WriteLine("\nExcepción:");
+                System.Diagnostics.Debug.WriteLine($"Message :{e.Message} ");
+            }
+            return new User[0];
+        }
     }
 }

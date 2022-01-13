@@ -103,3 +103,5 @@ C:\Users\Home\Documents\Valhalla\Proyectos\prueba_IN\PruebaIN - BackEnd\obj\Debu
 C:\Users\Home\Documents\Valhalla\Proyectos\prueba_IN\PruebaIN - BackEnd\obj\Debug\net5.0\ref\PruebaIN.dll
 C:\Users\Home\Documents\Valhalla\Proyectos\prueba_IN\PruebaIN - BackEnd\obj\Debug\net5.0\PruebaIN.pdb
 C:\Users\Home\Documents\Valhalla\Proyectos\prueba_IN\PruebaIN - BackEnd\obj\Debug\net5.0\PruebaIN.genruntimeconfig.cache
+C:\Users\Home\Documents\Valhalla\Proyectos\prueba_IN\PruebaIN - BackEnd\bin\Debug\net5.0\JWT.dll
+C:\Users\Home\Documents\Valhalla\Proyectos\prueba_IN\PruebaIN - BackEnd\bin\Debug\net5.0\Newtonsoft.Json.dll

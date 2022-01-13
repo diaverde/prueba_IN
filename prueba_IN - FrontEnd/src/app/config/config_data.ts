@@ -1,5 +1,5 @@
 export const configData = {
-    getUsersURL: 'https://fakerestapi.azurewebsites.net/api/v1/Users',
+    loginURL: 'https://localhost:44341/Login',
     getBooksURL: 'https://localhost:44341/Books',
     getAuthorsURL: 'https://localhost:44341/Authors',
     syncLibraryURL: 'https://localhost:44341/Library/Synchronize'

@@ -16,6 +16,7 @@ Autores y Libros a través de servicios REST que devuelven información para un 
 determinado o Múltiples autores y Libros.
 - Existe un Endpoint para sincronizar la información de los autores y libros
 desde la web api: https://fakerestapi.azurewebsites.net/index.html con la base de datos SQL Server.
+- Se utiliza JWT para autenticación de usuarios.
 
 FRONTEND (Angular 7+)
 - La aplicación consume los servicios implementados en el BACKEND

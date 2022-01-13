@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using PruebaIN.Services;
+
 namespace PruebaIN
 {
     public class Startup
@@ -37,6 +39,8 @@ namespace PruebaIN
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PruebaIN", Version = "v1" });
             });
+            services.AddSingleton<ITokenService, TokenService>();
+            services.AddSingleton<IJwt, Jwt>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
